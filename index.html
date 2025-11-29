@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Sabor Gourmet - Menú de Temporada</title>
+
+    <!-- Hoja de estilos externa -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- ========================================
+         ENCABEZADO
+    ======================================== -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">Sabor Gourmet</a>
+        </div>
+    </header>
+
+    <!-- ========================================
+         SECCIÓN HERO PRINCIPAL
+    ======================================== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Descubre nuestro nuevo Menú de Temporada</h1>
+            <p>Ingredientes frescos de temporada en platos únicos creados por nuestros chefs</p>
+            <a href="#reserva" class="btn-cta">Reservar ahora</a>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SECCIÓN DE BENEFICIOS
+    ======================================== -->
+    <section class="benefits">
+        <div class="benefits-container">
+            <h2 class="section-title">¿Por qué elegirnos?</h2>
+
+            <div class="benefits-grid">
+                <!-- Beneficio 1: Ingredientes frescos -->
+                <div class="benefit-card">
+                    <span class="benefit-icon">🌿</span>
+                    <h3>Ingredientes Frescos</h3>
+                    <p>Trabajamos con productores locales para garantizar la máxima frescura y calidad en cada platillo.
+                    </p>
+                </div>
+
+                <!-- Beneficio 2: Menú variado -->
+                <div class="benefit-card">
+                    <span class="benefit-icon">📋</span>
+                    <h3>Menú Variado</h3>
+                    <p>Opciones para todos los gustos: cocina internacional, vegana, vegetariana y opciones sin gluten.
+                    </p>
+                </div>
+
+                <!-- Beneficio 3: Ambiente acogedor -->
+                <div class="benefit-card">
+                    <span class="benefit-icon">✨</span>
+                    <h3>Ambiente Acogedor</h3>
+                    <p>Un espacio elegante y cálido, perfecto para cualquier ocasión especial o una cena romántica.</p>
+                </div>
+
+                <!-- Beneficio 4: Promoción limitada -->
+                <div class="benefit-card">
+                    <span class="benefit-icon">🎁</span>
+                    <h3>Promoción Exclusiva</h3>
+                    <p>20% de descuento en tu primera reserva. ¡Oferta válida por tiempo limitado!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FORMULARIO DE CAPTURA
+    ======================================== -->
+    <section class="form-section" id="reserva">
+        <div class="form-container">
+            <h2>Reserva tu mesa</h2>
+            <p>Déjanos tus datos y te contactaremos para confirmar tu reserva</p>
+
+            <form class="reservation-form" action="#" method="POST">
+                <!-- Campo de nombre -->
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required minlength="3">
+                </div>
+
+                <!-- Campo de email -->
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                </div>
+
+                <!-- Botón de envío -->
+                <button type="submit" class="btn-submit">Quiero reservar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+    ======================================== -->
+    <footer>
+        <div class="footer-container">
+            <!-- Enlaces del footer -->
+            <div class="footer-links">
+                <a href="#privacidad">Política de privacidad</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#ubicacion">Ubicación</a>
+                <a href="#menu">Menú completo</a>
+            </div>
+
+            <!-- Iconos de redes sociales -->
+            <div class="social-icons">
+                <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+                <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <p>&copy; 2025 Restaurante Sabor Gourmet. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
